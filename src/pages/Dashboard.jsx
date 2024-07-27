@@ -5,6 +5,7 @@ import { FaMoneyBillWaveAlt } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaUserPlus } from "react-icons/fa";
 import { FaSignal } from "react-icons/fa";
+import TableLayout from "../elements/TableLayout";
 
 export default function App() {
     return (
@@ -39,7 +40,7 @@ export default function App() {
                     </Bages>
                 </div>
             </div>
-            <div className="mb-4 grid grid-cols-1 gap-6 xl">
+            <TableLayout className="mb-4 grid grid-cols-1 gap-6 xl">
                 <div className="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
                     <div className="relative bg-clip-border rounded-xl overflow-hidden bg-transparent text-gray-700 shadow-none m-0 flex items-center justify-between p-6">
                         <div>
@@ -98,7 +99,7 @@ export default function App() {
                         </table>
                     </div>
                 </div>
-            </div>
+            </TableLayout>
         </>
     )
 }
